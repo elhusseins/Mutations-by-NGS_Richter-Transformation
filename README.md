@@ -33,7 +33,6 @@ data
 #dataframe
 as.data.frame(data)
 
-
 # final with dendro
 heatmap(data, xlab = 'genes', ylab = 'patients', labRow = NA, keep.dendro = TRUE, main = 'Mutation by Next Generation Sequencing', margins = c(5, 5))
 
